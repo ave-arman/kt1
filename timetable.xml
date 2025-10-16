@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="notebook.xsd">
+
+  <offices>
+    <office code="OFF001">Главный офис</office>
+    <office code="OFF002">Филиал на Ленина</office>
+    <office code="OFF003">Филиал на Гагарина</office>
+  </offices>
+
+  <person id="P001" office="OFF001">
+    <name>
+      <first>Иван</first>
+      <surname>Петров</surname>
+    </name>
+    <address>
+      <city>Москва</city>
+      <street>ул. Тверская, д. 25</street>
+      <index>125009</index>
+    </address>
+    <phones>
+      <phone type="work">123-45-67</phone>
+      <phone type="home">987-65-43</phone>
+    </phones>
+  </person>
+
+  <person id="P002" office="OFF002">
+    <name>
+      <first>Мария</first>
+      <surname>Сидорова</surname>
+    </name>
+    <address>
+      <index>190000</index>
+      <city>Санкт-Петербург</city>
+      <street>Невский пр., д. 100</street>
+    </address>
+    <phones>
+      <phone>555-44-33</phone>
+      <phone type="work">111-22-33</phone>
+    </phones>
+  </person>
+
+  <person id="P003" office="OFF001">
+    <name>
+      <first>Алексей</first>
+      <surname>Кузнецов</surname>
+    </name>
+    <address>
+      <street>ул. Пушкина, д. 15</street>
+      <index>630000</index>
+      <city>Новосибирск</city>
+    </address>
+    <phones>
+      <phone type="home">777-88-99</phone>
+    </phones>
+  </person>
+
+</notebook>
